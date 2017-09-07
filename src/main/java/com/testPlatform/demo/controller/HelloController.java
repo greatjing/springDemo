@@ -4,6 +4,7 @@ package com.testPlatform.demo.controller;/**
 
 import com.testPlatform.demo.config.ConfigBean;
 import com.testPlatform.demo.config.CustomConfigBean;
+import com.testPlatform.demo.service.DBConnectorService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -24,6 +25,8 @@ public class HelloController {
     ConfigBean configBean;
     @Autowired
     CustomConfigBean customConfigBean;
+    @Autowired
+    DBConnectorService dbConnectorService;
 
     @RequestMapping("/")
     public  String index(){
@@ -59,5 +62,12 @@ public class HelloController {
         String bignum = ""+ customConfigBean.getBignumber();
         String uuid = customConfigBean.getUuid().toString();
         return "num * " + num + "bignum * " + bignum + "uuid * " + uuid;
+    }
+
+
+    @RequestMapping("task")
+    public String task(){
+        dbConnectorService.config();
+        return "properties test";
     }
 }
