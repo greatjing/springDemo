@@ -37,4 +37,9 @@ public class HelloController {
         System.out.print(configBean.getGreeting());
         return "<H1>"+configBean.getGreeting() + configBean.getName()+"</h1>" ;
     }
+
+    @RequestMapping("/hello2")
+    public String hello2(){
+        return configBean.getHello2();
+    }
 }

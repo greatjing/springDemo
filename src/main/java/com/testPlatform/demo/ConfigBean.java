@@ -13,6 +13,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 public class ConfigBean {
     private String name ;
     private String greeting ;
+    private String hello2;
 
     public String getName(){
         return name;
@@ -28,5 +29,13 @@ public class ConfigBean {
 
     public void setGreeting(String greeting){
         this.greeting = greeting;
+    }
+
+    public String getHello2() {
+        return hello2;
+    }
+
+    public void setHello2(String hello2) {
+        this.hello2 = hello2;
     }
 }
