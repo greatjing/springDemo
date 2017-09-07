@@ -1,6 +1,6 @@
 package com.testPlatform.demo;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import com.testPlatform.demo.config.ConfigBean;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;

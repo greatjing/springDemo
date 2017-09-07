@@ -2,9 +2,9 @@ package com.testPlatform.demo.controller;/**
  * Created by guojingjing on 6/9/17.
  */
 
-import com.testPlatform.demo.ConfigBean;
+import com.testPlatform.demo.config.ConfigBean;
+import com.testPlatform.demo.config.CustomConfigBean;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -22,6 +22,8 @@ public class HelloController {
 
     @Autowired
     ConfigBean configBean;
+    @Autowired
+    CustomConfigBean customConfigBean;
 
     @RequestMapping("/")
     public  String index(){
@@ -31,15 +33,31 @@ public class HelloController {
     @RequestMapping("/hello")
     public String hello(){
 //		return greeting + name;
-        System.out.print("**********");
-        System.out.print(configBean.getName());
-        System.out.print("@@@@@@@@@@@");
-        System.out.print(configBean.getGreeting());
+//        System.out.print("**********");
+//        System.out.print(configBean.getName());
+//        System.out.print("@@@@@@@@@@@");
+//        System.out.print(configBean.getGreeting());
         return "<H1>"+configBean.getGreeting() + configBean.getName()+"</h1>" ;
     }
 
     @RequestMapping("/hello2")
     public String hello2(){
         return configBean.getHello2();
+    }
+
+    @RequestMapping("/hello3")
+    public String hello3(){
+        System.out.print("**********");
+        System.out.print(customConfigBean.getGreeting());
+        System.out.print("**********");
+        return customConfigBean.getGreeting() + customConfigBean.getName();
+    }
+
+    @RequestMapping("hello4")
+    public String hello4(){
+        String num = "" + customConfigBean.getNumber();
+        String bignum = ""+ customConfigBean.getBignumber();
+        String uuid = customConfigBean.getUuid().toString();
+        return "num * " + num + "bignum * " + bignum + "uuid * " + uuid;
     }
 }
