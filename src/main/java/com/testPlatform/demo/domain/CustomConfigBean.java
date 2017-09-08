@@ -1,4 +1,4 @@
-package com.testPlatform.demo.config;/**
+package com.testPlatform.demo.domain;/**
  * Created by guojingjing on 7/9/17.
  */
 

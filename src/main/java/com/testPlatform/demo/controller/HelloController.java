@@ -2,8 +2,8 @@ package com.testPlatform.demo.controller;/**
  * Created by guojingjing on 6/9/17.
  */
 
-import com.testPlatform.demo.config.ConfigBean;
-import com.testPlatform.demo.config.CustomConfigBean;
+import com.testPlatform.demo.domain.ConfigBean;
+import com.testPlatform.demo.domain.CustomConfigBean;
 import com.testPlatform.demo.service.DBConnectorService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
