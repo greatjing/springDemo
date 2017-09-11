@@ -2,6 +2,7 @@ package com.testPlatform.demo.config;/**
  * Created by guojingjing on 11/9/17.
  */
 
+import com.testPlatform.demo.interceptor.MyInterceptor;
 import org.springframework.boot.autoconfigure.web.WebMvcAutoConfiguration;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.*;
@@ -35,6 +36,15 @@ public class MyWebMvcConfigurerAdapter extends WebMvcConfigurerAdapter{
     public void addViewControllers(ViewControllerRegistry registration){
         registration.addViewController("toLogin").setViewName("login");
         super.addViewControllers(registration);
+    }
+
+//    重写webMvcConfigurerAdapter 拦截器
+    @Override
+    public void addInterceptors(InterceptorRegistry registry){
+        // addpathPatterns 用于添加拦截规则
+        // excludePathPatterns 用户排除拦截
+        registry.addInterceptor(new MyInterceptor()).addPathPatterns("/**").excludePathPatterns("/toLogin", "/login");
+        super.addInterceptors(registry);
     }
 
 }
