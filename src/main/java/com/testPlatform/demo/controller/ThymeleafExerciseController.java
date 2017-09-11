@@ -32,7 +32,7 @@ public class ThymeleafExerciseController {
         thymeleafBeans.add(bean);
 
         ModelAndView modelAndView = new ModelAndView("/index");
-        modelAndView.addObject("thymeleafBeans", thymeleafBeans);
+        modelAndView.addObject("thymeleafBeans1", thymeleafBeans);
 
 //        System.out.print("00000000");
 //        System.out.print(modelAndView);
