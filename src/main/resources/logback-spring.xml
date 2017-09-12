@@ -42,6 +42,16 @@
         <appender-ref ref="console" />
     </logger>
 
+    <!--设置不同环境，不同日志输出-->
 
+    <!--测试环境，开发环境，设置controller包下日志格式-->
+    <springProfile name="test,dev">
+        <logger name="com.testPlatform.demo.controller" level="info" />
+    </springProfile>
+
+    <!--线上生产环境，设置controller包下日志格式-->
+    <springProfile name="prod">
+        <logger name="com.testPlatform.demo.controller" level="error"></logger>
+    </springProfile>
 
 </configuration>
