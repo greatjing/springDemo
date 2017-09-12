@@ -27,7 +27,7 @@ public class MyWebMvcConfigurerAdapter extends WebMvcConfigurerAdapter{
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         System.out.print("12345");
-        registry.addResourceHandler("/test/**").addResourceLocations("file:~/Desktop/demo/src/main/resources/test/");
+        registry.addResourceHandler("/testmy/**").addResourceLocations("file:~/Desktop/demo/src/main/resources/testmy/");
         super.addResourceHandlers(registry);
     }
 

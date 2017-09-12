@@ -3,6 +3,8 @@ package com.testPlatform.demo.controller;/**
  */
 
 import com.testPlatform.demo.domain.ThymeleafBean;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
@@ -18,9 +20,16 @@ import java.util.List;
 @Controller
 @RequestMapping("/thymeleaf")
 public class ThymeleafExerciseController {
+    private Logger logger = LoggerFactory.getLogger(this.getClass());
+
     @RequestMapping("")
     public ModelAndView index(){
-        System.out.print("11111111");
+        System.out.println("11111111");
+        logger.trace("日志输出 trace");
+        logger.debug("日志输出 debug");
+        logger.info("日志输出 info");
+        logger.warn("日志输出 warn");
+        logger.error("日志输出 error");
         List<ThymeleafBean> thymeleafBeans = new ArrayList<ThymeleafBean>();
         ThymeleafBean bean = new ThymeleafBean("qq", "腾讯测试平台", "http://utest.qq.com/");
         thymeleafBeans.add(bean);
