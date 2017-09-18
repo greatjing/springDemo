@@ -85,6 +85,9 @@
 			<version>1.2.31</version>
 		</dependency>
 
+	</dependencies>
+
+
 	<build>
 		<plugins>
 			<plugin>

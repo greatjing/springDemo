@@ -33,7 +33,7 @@ public class DemoDapImpl implements DemoDao {
 
     @Override
     public int update(DemoResource demoResource){
-        return jdbcTemplate.update("update demo_resource set name=?, title=?, url=? wher id=?", new Object[]{demoResource.getName(), demoResource.getTitle(), demoResource.getUrl(), demoResource.getId()});
+        return jdbcTemplate.update("update demo_resource set name=?, title=?, url=? WHERE id=?", new Object[]{demoResource.getName(), demoResource.getTitle(), demoResource.getUrl(), demoResource.getId()});
     }
 
     @Override

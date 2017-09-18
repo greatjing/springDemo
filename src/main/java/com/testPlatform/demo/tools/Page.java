@@ -54,7 +54,7 @@ public class Page {
         //sql 设置当前页返回的记录，startIndex是从0开始
         StringBuffer paginationSQL = new StringBuffer();
         paginationSQL.append(sql);
-        paginationSQL.append("limit" + startIndex + "," + endIndex);
+        paginationSQL.append(" limit " + startIndex + "," + endIndex);
         //装入结果集
         setResultList(jdbcTemplate.queryForList(paginationSQL.toString()));
 
@@ -105,7 +105,7 @@ public class Page {
 
 //    开始顺序数
     public void setStartIndex() {
-        this.startIndex = (currentPage - 1) * numPerPage + 1;
+        this.startIndex = (currentPage - 1) * numPerPage;
 //        this.startIndex = startIndex;
     }
 

@@ -1,0 +1,1035 @@
+16:13:15.114 logback [main] INFO  c.testPlatform.demo.DemoApplication - Starting DemoApplication on AT4280.corp.autohome.inc with PID 37276 (/Users/guojingjing/Desktop/demo/target/classes started by guojingjing in /Users/guojingjing/Desktop/demo)
+16:13:15.119 logback [main] INFO  c.testPlatform.demo.DemoApplication - The following profiles are active: devdb
+16:13:16.083 logback [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+16:13:16.567 logback [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@45ca843: startup date [Thu Sep 14 16:13:16 CST 2017]; root of context hierarchy
+16:13:21.367 logback [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+16:13:21.385 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:13:21.387 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.16
+16:13:21.514 logback [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:13:21.515 logback [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 4947 ms
+16:13:21.812 logback [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+16:13:21.816 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+16:13:21.817 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+16:13:21.817 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+16:13:21.817 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+16:13:22.128 logback [main] WARN  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'helloController': Unsatisfied dependency expressed through field 'configBean'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.testPlatform.demo.domain.ConfigBean' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+16:13:22.130 logback [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+16:13:22.164 logback [main] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+16:13:22.257 logback [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field configBean in com.testPlatform.demo.controller.HelloController required a bean of type 'com.testPlatform.demo.domain.ConfigBean' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.testPlatform.demo.domain.ConfigBean' in your configuration.
+
+16:15:31.552 logback [main] INFO  c.testPlatform.demo.DemoApplication - Starting DemoApplication on AT4280.corp.autohome.inc with PID 37288 (/Users/guojingjing/Desktop/demo/target/classes started by guojingjing in /Users/guojingjing/Desktop/demo)
+16:15:31.565 logback [main] INFO  c.testPlatform.demo.DemoApplication - The following profiles are active: devdb
+16:15:31.891 logback [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+16:15:32.166 logback [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@45ca843: startup date [Thu Sep 14 16:15:32 CST 2017]; root of context hierarchy
+16:15:34.052 logback [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+16:15:34.066 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:15:34.067 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.16
+16:15:34.171 logback [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:15:34.172 logback [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2006 ms
+16:15:34.365 logback [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+16:15:34.374 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+16:15:34.375 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+16:15:34.376 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+16:15:34.376 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+16:15:34.702 logback [main] WARN  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'helloController': Unsatisfied dependency expressed through field 'configBean'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.testPlatform.demo.domain.ConfigBean' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+16:15:34.704 logback [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+16:15:34.728 logback [main] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+16:15:34.809 logback [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field configBean in com.testPlatform.demo.controller.HelloController required a bean of type 'com.testPlatform.demo.domain.ConfigBean' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.testPlatform.demo.domain.ConfigBean' in your configuration.
+
+16:18:15.005 logback [main] INFO  c.testPlatform.demo.DemoApplication - Starting DemoApplication on AT4280.corp.autohome.inc with PID 37300 (/Users/guojingjing/Desktop/demo/target/classes started by guojingjing in /Users/guojingjing/Desktop/demo)
+16:18:15.012 logback [main] INFO  c.testPlatform.demo.DemoApplication - The following profiles are active: devdb
+16:18:15.366 logback [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+16:18:15.561 logback [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@45ca843: startup date [Thu Sep 14 16:18:15 CST 2017]; root of context hierarchy
+16:18:17.727 logback [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+16:18:17.741 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:18:17.742 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.16
+16:18:17.851 logback [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:18:17.852 logback [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2291 ms
+16:18:18.061 logback [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+16:18:18.066 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+16:18:18.067 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+16:18:18.067 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+16:18:18.067 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+16:18:18.799 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@45ca843: startup date [Thu Sep 14 16:18:15 CST 2017]; root of context hierarchy
+16:18:18.885 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/demo]}" onto public java.lang.String com.testPlatform.demo.controller.DemoController.demo()
+16:18:18.887 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/demo/queryDemoList],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public void com.testPlatform.demo.controller.DemoController.queryDemoList(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+16:18:18.888 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String com.testPlatform.demo.controller.HelloController.index()
+16:18:18.889 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello]}" onto public java.lang.String com.testPlatform.demo.controller.HelloController.hello()
+16:18:18.889 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello3]}" onto public java.lang.String com.testPlatform.demo.controller.HelloController.hello3()
+16:18:18.889 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello2]}" onto public java.lang.String com.testPlatform.demo.controller.HelloController.hello2()
+16:18:18.889 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello4]}" onto public java.lang.String com.testPlatform.demo.controller.HelloController.hello4()
+16:18:18.889 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/task]}" onto public java.lang.String com.testPlatform.demo.controller.HelloController.task()
+16:18:18.890 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/thymeleaf]}" onto public org.springframework.web.servlet.ModelAndView com.testPlatform.demo.controller.ThymeleafExerciseController.index()
+16:18:18.891 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/jsp]}" onto public org.springframework.web.servlet.ModelAndView com.testPlatform.demo.controller.jspExerciseController.index()
+16:18:18.891 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/login],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.testPlatform.demo.controller.loginController.login(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+16:18:18.894 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+16:18:18.895 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+16:18:18.910 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/toLogin] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+16:18:18.940 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/testmy/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+16:18:18.941 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+16:18:18.941 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+16:18:18.987 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+16:18:19.883 logback [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+16:18:19.884 logback [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+16:18:19.897 logback [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+16:18:19.945 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:18:19.978 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:18:20.001 logback [main] ERROR o.a.coyote.http11.Http11NioProtocol - Failed to start end point associated with ProtocolHandler ["http-nio-8080"]
+java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:990)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:635)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1022)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:250)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:193)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.testPlatform.demo.DemoApplication.main(DemoApplication.java:25)
+16:18:20.003 logback [main] ERROR o.a.catalina.core.StandardService - Failed to start connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.addPreviouslyRemovedConnectors(TomcatEmbeddedServletContainer.java:250)
+	at org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer.start(TomcatEmbeddedServletContainer.java:193)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.startEmbeddedServletContainer(EmbeddedWebApplicationContext.java:297)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:145)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.testPlatform.demo.DemoApplication.main(DemoApplication.java:25)
+Caused by: org.apache.catalina.LifecycleException: service.getName(): "Tomcat";  Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1029)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 13 common frames omitted
+Caused by: java.net.BindException: Address already in use
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:433)
+	at sun.nio.ch.Net.bind(Net.java:425)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:223)
+	at sun.nio.ch.ServerSocketAdaptor.bind(ServerSocketAdaptor.java:74)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:990)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:635)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1022)
+	... 14 common frames omitted
+16:18:20.029 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+16:18:20.029 logback [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+16:18:20.060 logback [main] INFO  o.apache.catalina.util.LifecycleBase - The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+16:18:20.061 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+16:18:20.061 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8080"]
+16:18:20.066 logback [main] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+16:18:20.290 logback [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+16:18:20.292 logback [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@45ca843: startup date [Thu Sep 14 16:18:15 CST 2017]; root of context hierarchy
+16:18:20.294 logback [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+16:18:20.295 logback [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+16:18:50.471 logback [main] INFO  c.testPlatform.demo.DemoApplication - Starting DemoApplication on AT4280.corp.autohome.inc with PID 37305 (/Users/guojingjing/Desktop/demo/target/classes started by guojingjing in /Users/guojingjing/Desktop/demo)
+16:18:50.476 logback [main] INFO  c.testPlatform.demo.DemoApplication - The following profiles are active: devdb
+16:18:50.862 logback [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+16:18:51.096 logback [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@45ca843: startup date [Thu Sep 14 16:18:51 CST 2017]; root of context hierarchy
+16:18:53.052 logback [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+16:18:53.067 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:18:53.068 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.16
+16:18:53.169 logback [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:18:53.170 logback [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2073 ms
+16:18:53.365 logback [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+16:18:53.370 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+16:18:53.371 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+16:18:53.371 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+16:18:53.371 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+16:18:54.076 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@45ca843: startup date [Thu Sep 14 16:18:51 CST 2017]; root of context hierarchy
+16:18:54.153 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/demo]}" onto public java.lang.String com.testPlatform.demo.controller.DemoController.demo()
+16:18:54.159 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/demo/queryDemoList],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public void com.testPlatform.demo.controller.DemoController.queryDemoList(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+16:18:54.162 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String com.testPlatform.demo.controller.HelloController.index()
+16:18:54.163 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/task]}" onto public java.lang.String com.testPlatform.demo.controller.HelloController.task()
+16:18:54.163 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello]}" onto public java.lang.String com.testPlatform.demo.controller.HelloController.hello()
+16:18:54.163 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello2]}" onto public java.lang.String com.testPlatform.demo.controller.HelloController.hello2()
+16:18:54.164 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello3]}" onto public java.lang.String com.testPlatform.demo.controller.HelloController.hello3()
+16:18:54.164 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello4]}" onto public java.lang.String com.testPlatform.demo.controller.HelloController.hello4()
+16:18:54.165 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/thymeleaf]}" onto public org.springframework.web.servlet.ModelAndView com.testPlatform.demo.controller.ThymeleafExerciseController.index()
+16:18:54.166 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/jsp]}" onto public org.springframework.web.servlet.ModelAndView com.testPlatform.demo.controller.jspExerciseController.index()
+16:18:54.166 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/login],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.testPlatform.demo.controller.loginController.login(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+16:18:54.170 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+16:18:54.170 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+16:18:54.186 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/toLogin] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+16:18:54.200 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/testmy/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+16:18:54.200 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+16:18:54.201 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+16:18:54.255 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+16:18:54.964 logback [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+16:18:54.965 logback [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+16:18:54.977 logback [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+16:18:54.996 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:18:55.006 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:18:55.023 logback [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+16:18:55.048 logback [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+16:18:55.056 logback [main] INFO  c.testPlatform.demo.DemoApplication - Started DemoApplication in 5.443 seconds (JVM running for 7.006)
+16:19:28.476 logback [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+16:19:28.476 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+16:19:28.495 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 19 ms
+16:19:28.583 logback [http-nio-8080-exec-2] INFO  org.thymeleaf.TemplateEngine - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+16:19:28.636 logback [http-nio-8080-exec-2] INFO  o.t.t.AbstractTemplateResolver - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+16:19:28.636 logback [http-nio-8080-exec-2] INFO  o.t.t.AbstractTemplateResolver - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+16:19:28.636 logback [http-nio-8080-exec-2] INFO  o.t.m.AbstractMessageResolver - [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+16:19:28.636 logback [http-nio-8080-exec-2] INFO  o.t.m.AbstractMessageResolver - [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+16:19:28.640 logback [http-nio-8080-exec-2] INFO  org.thymeleaf.TemplateEngine.CONFIG - [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * HTML5
+[THYMELEAF]     * XML
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * XHTML
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+16:19:28.641 logback [http-nio-8080-exec-2] INFO  org.thymeleaf.TemplateEngine - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+16:20:09.142 logback [http-nio-8080-exec-7] ERROR org.thymeleaf.TemplateEngine - [THYMELEAF][http-nio-8080-exec-7] Exception processing template "demo-resource": Error resolving template "demo-resource", template might not exist or might not be accessible by any of the configured Template Resolvers
+16:20:09.148 logback [http-nio-8080-exec-7] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template "demo-resource", template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template "demo-resource", template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.TemplateRepository.getTemplate(TemplateRepository.java:246)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1104)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1060)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1011)
+	at org.thymeleaf.spring4.view.ThymeleafView.renderFragment(ThymeleafView.java:335)
+	at org.thymeleaf.spring4.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1286)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1041)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:984)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+16:20:30.682 logback [http-nio-8080-exec-5] ERROR org.thymeleaf.TemplateEngine - [THYMELEAF][http-nio-8080-exec-5] Exception processing template "demo-resource": Error resolving template "demo-resource", template might not exist or might not be accessible by any of the configured Template Resolvers
+16:20:30.683 logback [http-nio-8080-exec-5] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template "demo-resource", template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template "demo-resource", template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.TemplateRepository.getTemplate(TemplateRepository.java:246)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1104)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1060)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1011)
+	at org.thymeleaf.spring4.view.ThymeleafView.renderFragment(ThymeleafView.java:335)
+	at org.thymeleaf.spring4.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1286)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1041)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:984)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+16:21:06.313 logback [http-nio-8080-exec-9] ERROR org.thymeleaf.TemplateEngine - [THYMELEAF][http-nio-8080-exec-9] Exception processing template "demo-resource": Error resolving template "demo-resource", template might not exist or might not be accessible by any of the configured Template Resolvers
+16:21:06.314 logback [http-nio-8080-exec-9] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: Error resolving template "demo-resource", template might not exist or might not be accessible by any of the configured Template Resolvers] with root cause
+org.thymeleaf.exceptions.TemplateInputException: Error resolving template "demo-resource", template might not exist or might not be accessible by any of the configured Template Resolvers
+	at org.thymeleaf.TemplateRepository.getTemplate(TemplateRepository.java:246)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1104)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1060)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1011)
+	at org.thymeleaf.spring4.view.ThymeleafView.renderFragment(ThymeleafView.java:335)
+	at org.thymeleaf.spring4.view.ThymeleafView.render(ThymeleafView.java:190)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1286)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1041)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:984)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+16:29:51.520 logback [Thread-15] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@45ca843: startup date [Thu Sep 14 16:18:51 CST 2017]; root of context hierarchy
+16:29:51.529 logback [Thread-15] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+16:29:51.530 logback [Thread-15] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+16:29:59.989 logback [main] INFO  c.testPlatform.demo.DemoApplication - Starting DemoApplication on AT4280.corp.autohome.inc with PID 37335 (/Users/guojingjing/Desktop/demo/target/classes started by guojingjing in /Users/guojingjing/Desktop/demo)
+16:29:59.993 logback [main] INFO  c.testPlatform.demo.DemoApplication - The following profiles are active: devdb
+16:30:00.407 logback [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+16:30:00.673 logback [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@45ca843: startup date [Thu Sep 14 16:30:00 CST 2017]; root of context hierarchy
+16:30:02.590 logback [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+16:30:02.605 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:30:02.606 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.16
+16:30:02.716 logback [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:30:02.717 logback [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2044 ms
+16:30:02.914 logback [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+16:30:02.919 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+16:30:02.920 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+16:30:02.920 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+16:30:02.920 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+16:30:03.609 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@45ca843: startup date [Thu Sep 14 16:30:00 CST 2017]; root of context hierarchy
+16:30:03.677 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/demo]}" onto public java.lang.String com.testPlatform.demo.controller.DemoController.demo()
+16:30:03.679 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/demo/queryDemoList],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public void com.testPlatform.demo.controller.DemoController.queryDemoList(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+16:30:03.680 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String com.testPlatform.demo.controller.HelloController.index()
+16:30:03.681 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/task]}" onto public java.lang.String com.testPlatform.demo.controller.HelloController.task()
+16:30:03.681 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello]}" onto public java.lang.String com.testPlatform.demo.controller.HelloController.hello()
+16:30:03.681 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello2]}" onto public java.lang.String com.testPlatform.demo.controller.HelloController.hello2()
+16:30:03.681 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello3]}" onto public java.lang.String com.testPlatform.demo.controller.HelloController.hello3()
+16:30:03.681 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello4]}" onto public java.lang.String com.testPlatform.demo.controller.HelloController.hello4()
+16:30:03.682 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/thymeleaf]}" onto public org.springframework.web.servlet.ModelAndView com.testPlatform.demo.controller.ThymeleafExerciseController.index()
+16:30:03.683 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/jsp]}" onto public org.springframework.web.servlet.ModelAndView com.testPlatform.demo.controller.jspExerciseController.index()
+16:30:03.683 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/login],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.testPlatform.demo.controller.loginController.login(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+16:30:03.686 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+16:30:03.687 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+16:30:03.714 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/toLogin] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+16:30:03.727 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/testmy/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+16:30:03.727 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+16:30:03.727 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+16:30:03.768 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+16:30:04.425 logback [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+16:30:04.426 logback [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+16:30:04.432 logback [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+16:30:04.451 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:30:04.461 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:30:04.477 logback [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+16:30:04.498 logback [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+16:30:04.507 logback [main] INFO  c.testPlatform.demo.DemoApplication - Started DemoApplication in 5.254 seconds (JVM running for 7.046)
+16:30:12.571 logback [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+16:30:12.572 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+16:30:12.590 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 18 ms
+16:30:12.667 logback [http-nio-8080-exec-2] INFO  org.thymeleaf.TemplateEngine - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+16:30:12.710 logback [http-nio-8080-exec-2] INFO  o.t.t.AbstractTemplateResolver - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+16:30:12.710 logback [http-nio-8080-exec-2] INFO  o.t.t.AbstractTemplateResolver - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+16:30:12.711 logback [http-nio-8080-exec-2] INFO  o.t.m.AbstractMessageResolver - [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+16:30:12.711 logback [http-nio-8080-exec-2] INFO  o.t.m.AbstractMessageResolver - [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+16:30:12.715 logback [http-nio-8080-exec-2] INFO  org.thymeleaf.TemplateEngine.CONFIG - [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * XHTML
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF]     * HTML5
+[THYMELEAF]     * XML
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+16:30:12.715 logback [http-nio-8080-exec-2] INFO  org.thymeleaf.TemplateEngine - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+16:32:06.645 logback [Thread-15] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@45ca843: startup date [Thu Sep 14 16:30:00 CST 2017]; root of context hierarchy
+16:32:06.651 logback [Thread-15] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+16:32:06.651 logback [Thread-15] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+16:32:15.272 logback [main] INFO  c.testPlatform.demo.DemoApplication - Starting DemoApplication on AT4280.corp.autohome.inc with PID 37346 (/Users/guojingjing/Desktop/demo/target/classes started by guojingjing in /Users/guojingjing/Desktop/demo)
+16:32:15.296 logback [main] INFO  c.testPlatform.demo.DemoApplication - The following profiles are active: devdb
+16:32:15.555 logback [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+16:32:15.749 logback [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@45ca843: startup date [Thu Sep 14 16:32:15 CST 2017]; root of context hierarchy
+16:32:17.538 logback [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+16:32:17.552 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+16:32:17.553 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.16
+16:32:17.670 logback [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+16:32:17.670 logback [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1921 ms
+16:32:17.855 logback [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+16:32:17.860 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+16:32:17.861 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+16:32:17.862 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+16:32:17.862 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+16:32:18.546 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@45ca843: startup date [Thu Sep 14 16:32:15 CST 2017]; root of context hierarchy
+16:32:18.613 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/demo]}" onto public java.lang.String com.testPlatform.demo.controller.DemoController.demo()
+16:32:18.615 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/demo/queryDemoList],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public void com.testPlatform.demo.controller.DemoController.queryDemoList(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+16:32:18.617 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String com.testPlatform.demo.controller.HelloController.index()
+16:32:18.618 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/task]}" onto public java.lang.String com.testPlatform.demo.controller.HelloController.task()
+16:32:18.618 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello]}" onto public java.lang.String com.testPlatform.demo.controller.HelloController.hello()
+16:32:18.618 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello2]}" onto public java.lang.String com.testPlatform.demo.controller.HelloController.hello2()
+16:32:18.618 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello3]}" onto public java.lang.String com.testPlatform.demo.controller.HelloController.hello3()
+16:32:18.619 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello4]}" onto public java.lang.String com.testPlatform.demo.controller.HelloController.hello4()
+16:32:18.619 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/thymeleaf]}" onto public org.springframework.web.servlet.ModelAndView com.testPlatform.demo.controller.ThymeleafExerciseController.index()
+16:32:18.620 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/jsp]}" onto public org.springframework.web.servlet.ModelAndView com.testPlatform.demo.controller.jspExerciseController.index()
+16:32:18.621 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/login],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.testPlatform.demo.controller.loginController.login(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+16:32:18.624 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+16:32:18.624 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+16:32:18.638 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/toLogin] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+16:32:18.650 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/testmy/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+16:32:18.651 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+16:32:18.651 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+16:32:18.692 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+16:32:19.343 logback [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+16:32:19.345 logback [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+16:32:19.354 logback [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+16:32:19.371 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+16:32:19.381 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+16:32:19.400 logback [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+16:32:19.424 logback [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+16:32:19.430 logback [main] INFO  c.testPlatform.demo.DemoApplication - Started DemoApplication in 5.12 seconds (JVM running for 7.464)
+16:32:24.300 logback [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+16:32:24.301 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+16:32:24.322 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 20 ms
+16:32:24.435 logback [http-nio-8080-exec-1] INFO  org.thymeleaf.TemplateEngine - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+16:32:24.483 logback [http-nio-8080-exec-1] INFO  o.t.t.AbstractTemplateResolver - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+16:32:24.483 logback [http-nio-8080-exec-1] INFO  o.t.t.AbstractTemplateResolver - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+16:32:24.483 logback [http-nio-8080-exec-1] INFO  o.t.m.AbstractMessageResolver - [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+16:32:24.483 logback [http-nio-8080-exec-1] INFO  o.t.m.AbstractMessageResolver - [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+16:32:24.487 logback [http-nio-8080-exec-1] INFO  org.thymeleaf.TemplateEngine.CONFIG - [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * XHTML
+[THYMELEAF]     * XML
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * HTML5
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+16:32:24.487 logback [http-nio-8080-exec-1] INFO  org.thymeleaf.TemplateEngine - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+17:05:35.794 logback [Thread-15] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@45ca843: startup date [Thu Sep 14 16:32:15 CST 2017]; root of context hierarchy
+17:05:35.815 logback [Thread-15] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+17:05:35.817 logback [Thread-15] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+17:05:55.818 logback [main] INFO  c.testPlatform.demo.DemoApplication - Starting DemoApplication on AT4280.corp.autohome.inc with PID 37599 (/Users/guojingjing/Desktop/demo/target/classes started by guojingjing in /Users/guojingjing/Desktop/demo)
+17:05:55.822 logback [main] INFO  c.testPlatform.demo.DemoApplication - The following profiles are active: devdb
+17:05:56.006 logback [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+17:05:56.493 logback [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@45ca843: startup date [Thu Sep 14 17:05:56 CST 2017]; root of context hierarchy
+17:05:58.390 logback [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+17:05:58.404 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+17:05:58.405 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.16
+17:05:58.549 logback [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+17:05:58.549 logback [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2056 ms
+17:05:58.743 logback [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+17:05:58.748 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+17:05:58.748 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+17:05:58.749 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+17:05:58.749 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+17:05:59.535 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@45ca843: startup date [Thu Sep 14 17:05:56 CST 2017]; root of context hierarchy
+17:05:59.603 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/demo]}" onto public java.lang.String com.testPlatform.demo.controller.DemoController.demo()
+17:05:59.606 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/demo/queryDemoList],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public void com.testPlatform.demo.controller.DemoController.queryDemoList(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+17:05:59.608 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String com.testPlatform.demo.controller.HelloController.index()
+17:05:59.608 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello]}" onto public java.lang.String com.testPlatform.demo.controller.HelloController.hello()
+17:05:59.608 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello2]}" onto public java.lang.String com.testPlatform.demo.controller.HelloController.hello2()
+17:05:59.608 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello3]}" onto public java.lang.String com.testPlatform.demo.controller.HelloController.hello3()
+17:05:59.609 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello4]}" onto public java.lang.String com.testPlatform.demo.controller.HelloController.hello4()
+17:05:59.609 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/task]}" onto public java.lang.String com.testPlatform.demo.controller.HelloController.task()
+17:05:59.610 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/thymeleaf]}" onto public org.springframework.web.servlet.ModelAndView com.testPlatform.demo.controller.ThymeleafExerciseController.index()
+17:05:59.611 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/jsp]}" onto public org.springframework.web.servlet.ModelAndView com.testPlatform.demo.controller.jspExerciseController.index()
+17:05:59.611 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/login],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.testPlatform.demo.controller.loginController.login(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+17:05:59.615 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+17:05:59.616 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+17:05:59.634 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/toLogin] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+17:05:59.648 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/testmy/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17:05:59.649 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17:05:59.649 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17:05:59.692 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+17:06:00.414 logback [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+17:06:00.417 logback [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+17:06:00.428 logback [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+17:06:00.459 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+17:06:00.527 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+17:06:00.546 logback [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+17:06:00.569 logback [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+17:06:00.576 logback [main] INFO  c.testPlatform.demo.DemoApplication - Started DemoApplication in 6.017 seconds (JVM running for 8.158)
+17:06:15.334 logback [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+17:06:15.334 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+17:06:15.353 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 19 ms
+17:06:15.451 logback [http-nio-8080-exec-2] INFO  org.thymeleaf.TemplateEngine - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+17:06:15.517 logback [http-nio-8080-exec-2] INFO  o.t.t.AbstractTemplateResolver - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+17:06:15.518 logback [http-nio-8080-exec-2] INFO  o.t.t.AbstractTemplateResolver - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+17:06:15.518 logback [http-nio-8080-exec-2] INFO  o.t.m.AbstractMessageResolver - [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+17:06:15.518 logback [http-nio-8080-exec-2] INFO  o.t.m.AbstractMessageResolver - [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+17:06:15.523 logback [http-nio-8080-exec-2] INFO  org.thymeleaf.TemplateEngine.CONFIG - [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * XHTML
+[THYMELEAF]     * HTML5
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF]     * XML
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+17:06:15.524 logback [http-nio-8080-exec-2] INFO  org.thymeleaf.TemplateEngine - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+18:39:15.867 logback [Thread-17] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@45ca843: startup date [Thu Sep 14 17:05:56 CST 2017]; root of context hierarchy
+18:39:15.923 logback [Thread-17] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+18:39:15.923 logback [Thread-17] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+18:39:52.104 logback [main] INFO  c.testPlatform.demo.DemoApplication - Starting DemoApplication on AT4280.corp.autohome.inc with PID 37714 (/Users/guojingjing/Desktop/demo/target/classes started by guojingjing in /Users/guojingjing/Desktop/demo)
+18:39:52.116 logback [main] INFO  c.testPlatform.demo.DemoApplication - The following profiles are active: devdb
+18:39:53.247 logback [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+18:39:53.784 logback [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@45ca843: startup date [Thu Sep 14 18:39:53 CST 2017]; root of context hierarchy
+18:39:57.511 logback [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+18:39:57.527 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+18:39:57.529 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.16
+18:39:57.725 logback [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+18:39:57.726 logback [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3942 ms
+18:39:58.074 logback [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+18:39:58.079 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+18:39:58.080 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+18:39:58.080 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+18:39:58.081 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+18:39:59.720 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@45ca843: startup date [Thu Sep 14 18:39:53 CST 2017]; root of context hierarchy
+18:39:59.847 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/demo]}" onto public java.lang.String com.testPlatform.demo.controller.DemoController.demo()
+18:39:59.853 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/demo/queryDemoList],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public void com.testPlatform.demo.controller.DemoController.queryDemoList(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+18:39:59.859 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String com.testPlatform.demo.controller.HelloController.index()
+18:39:59.860 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/task]}" onto public java.lang.String com.testPlatform.demo.controller.HelloController.task()
+18:39:59.861 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello2]}" onto public java.lang.String com.testPlatform.demo.controller.HelloController.hello2()
+18:39:59.861 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello]}" onto public java.lang.String com.testPlatform.demo.controller.HelloController.hello()
+18:39:59.861 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello3]}" onto public java.lang.String com.testPlatform.demo.controller.HelloController.hello3()
+18:39:59.862 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello4]}" onto public java.lang.String com.testPlatform.demo.controller.HelloController.hello4()
+18:39:59.863 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/thymeleaf]}" onto public org.springframework.web.servlet.ModelAndView com.testPlatform.demo.controller.ThymeleafExerciseController.index()
+18:39:59.863 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/jsp]}" onto public org.springframework.web.servlet.ModelAndView com.testPlatform.demo.controller.jspExerciseController.index()
+18:39:59.865 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/login],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.testPlatform.demo.controller.loginController.login(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+18:39:59.881 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+18:39:59.882 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+18:39:59.912 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/toLogin] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+18:39:59.948 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/testmy/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+18:39:59.948 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+18:39:59.948 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+18:40:00.229 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+18:40:01.612 logback [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+18:40:01.618 logback [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+18:40:01.637 logback [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+18:40:01.658 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+18:40:01.671 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+18:40:01.705 logback [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+18:40:01.729 logback [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+18:40:01.741 logback [main] INFO  c.testPlatform.demo.DemoApplication - Started DemoApplication in 12.25 seconds (JVM running for 16.381)
+18:40:11.174 logback [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+18:40:11.175 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+18:40:11.221 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 46 ms
+18:40:11.372 logback [http-nio-8080-exec-2] INFO  org.thymeleaf.TemplateEngine - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+18:40:11.637 logback [http-nio-8080-exec-2] INFO  o.t.t.AbstractTemplateResolver - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+18:40:11.638 logback [http-nio-8080-exec-2] INFO  o.t.t.AbstractTemplateResolver - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+18:40:11.638 logback [http-nio-8080-exec-2] INFO  o.t.m.AbstractMessageResolver - [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+18:40:11.638 logback [http-nio-8080-exec-2] INFO  o.t.m.AbstractMessageResolver - [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+18:40:11.654 logback [http-nio-8080-exec-2] INFO  org.thymeleaf.TemplateEngine.CONFIG - [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * XML
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF]     * XHTML
+[THYMELEAF]     * HTML5
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+18:40:11.654 logback [http-nio-8080-exec-2] INFO  org.thymeleaf.TemplateEngine - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+18:42:03.347 logback [Thread-30] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@45ca843: startup date [Thu Sep 14 18:39:53 CST 2017]; root of context hierarchy
+18:42:03.355 logback [Thread-30] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+18:42:03.355 logback [Thread-30] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+18:44:25.487 logback [main] INFO  c.testPlatform.demo.DemoApplication - Starting DemoApplication on AT4280.corp.autohome.inc with PID 37730 (/Users/guojingjing/Desktop/demo/target/classes started by guojingjing in /Users/guojingjing/Desktop/demo)
+18:44:25.505 logback [main] INFO  c.testPlatform.demo.DemoApplication - The following profiles are active: devdb
+18:44:26.366 logback [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+18:44:26.768 logback [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@45ca843: startup date [Thu Sep 14 18:44:26 CST 2017]; root of context hierarchy
+18:44:30.282 logback [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+18:44:30.303 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+18:44:30.305 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.16
+18:44:30.525 logback [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+18:44:30.525 logback [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3757 ms
+18:44:30.808 logback [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+18:44:30.823 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+18:44:30.824 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+18:44:30.824 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+18:44:30.824 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+18:44:32.286 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@45ca843: startup date [Thu Sep 14 18:44:26 CST 2017]; root of context hierarchy
+18:44:32.398 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/demo]}" onto public java.lang.String com.testPlatform.demo.controller.DemoController.demo()
+18:44:32.401 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/demo/queryDemoList],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public void com.testPlatform.demo.controller.DemoController.queryDemoList(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+18:44:32.402 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String com.testPlatform.demo.controller.HelloController.index()
+18:44:32.403 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello]}" onto public java.lang.String com.testPlatform.demo.controller.HelloController.hello()
+18:44:32.403 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello2]}" onto public java.lang.String com.testPlatform.demo.controller.HelloController.hello2()
+18:44:32.403 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello3]}" onto public java.lang.String com.testPlatform.demo.controller.HelloController.hello3()
+18:44:32.404 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello4]}" onto public java.lang.String com.testPlatform.demo.controller.HelloController.hello4()
+18:44:32.404 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/task]}" onto public java.lang.String com.testPlatform.demo.controller.HelloController.task()
+18:44:32.405 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/thymeleaf]}" onto public org.springframework.web.servlet.ModelAndView com.testPlatform.demo.controller.ThymeleafExerciseController.index()
+18:44:32.405 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/jsp]}" onto public org.springframework.web.servlet.ModelAndView com.testPlatform.demo.controller.jspExerciseController.index()
+18:44:32.406 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/login],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.testPlatform.demo.controller.loginController.login(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+18:44:32.409 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+18:44:32.410 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+18:44:32.434 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/toLogin] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+18:44:32.470 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/testmy/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+18:44:32.472 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+18:44:32.473 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+18:44:32.685 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+18:44:34.179 logback [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+18:44:34.182 logback [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+18:44:34.206 logback [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+18:44:34.239 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+18:44:34.266 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+18:44:34.306 logback [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+18:44:34.350 logback [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+18:44:34.361 logback [main] INFO  c.testPlatform.demo.DemoApplication - Started DemoApplication in 10.683 seconds (JVM running for 13.914)
+18:44:40.905 logback [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+18:44:40.905 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+18:44:40.928 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 23 ms
+18:44:41.080 logback [http-nio-8080-exec-2] INFO  org.thymeleaf.TemplateEngine - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+18:44:41.162 logback [http-nio-8080-exec-2] INFO  o.t.t.AbstractTemplateResolver - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+18:44:41.163 logback [http-nio-8080-exec-2] INFO  o.t.t.AbstractTemplateResolver - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+18:44:41.164 logback [http-nio-8080-exec-2] INFO  o.t.m.AbstractMessageResolver - [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+18:44:41.164 logback [http-nio-8080-exec-2] INFO  o.t.m.AbstractMessageResolver - [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+18:44:41.174 logback [http-nio-8080-exec-2] INFO  org.thymeleaf.TemplateEngine.CONFIG - [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * XHTML
+[THYMELEAF]     * XML
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * HTML5
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+18:44:41.174 logback [http-nio-8080-exec-2] INFO  org.thymeleaf.TemplateEngine - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+18:47:33.759 logback [Thread-26] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@45ca843: startup date [Thu Sep 14 18:44:26 CST 2017]; root of context hierarchy
+18:47:33.767 logback [Thread-26] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+18:47:33.767 logback [Thread-26] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+18:47:44.340 logback [main] INFO  c.testPlatform.demo.DemoApplication - Starting DemoApplication on AT4280.corp.autohome.inc with PID 37779 (/Users/guojingjing/Desktop/demo/target/classes started by guojingjing in /Users/guojingjing/Desktop/demo)
+18:47:44.345 logback [main] INFO  c.testPlatform.demo.DemoApplication - The following profiles are active: devdb
+18:47:44.722 logback [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+18:47:44.956 logback [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@45ca843: startup date [Thu Sep 14 18:47:44 CST 2017]; root of context hierarchy
+18:47:46.835 logback [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+18:47:46.848 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+18:47:46.849 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.16
+18:47:46.973 logback [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+18:47:46.973 logback [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2017 ms
+18:47:47.155 logback [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+18:47:47.159 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+18:47:47.160 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+18:47:47.160 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+18:47:47.160 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+18:47:47.803 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@45ca843: startup date [Thu Sep 14 18:47:44 CST 2017]; root of context hierarchy
+18:47:47.868 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/demo]}" onto public java.lang.String com.testPlatform.demo.controller.DemoController.demo()
+18:47:47.872 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/demo/queryDemoList],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public void com.testPlatform.demo.controller.DemoController.queryDemoList(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+18:47:47.877 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String com.testPlatform.demo.controller.HelloController.index()
+18:47:47.878 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/task]}" onto public java.lang.String com.testPlatform.demo.controller.HelloController.task()
+18:47:47.878 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello]}" onto public java.lang.String com.testPlatform.demo.controller.HelloController.hello()
+18:47:47.879 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello2]}" onto public java.lang.String com.testPlatform.demo.controller.HelloController.hello2()
+18:47:47.879 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello3]}" onto public java.lang.String com.testPlatform.demo.controller.HelloController.hello3()
+18:47:47.880 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello4]}" onto public java.lang.String com.testPlatform.demo.controller.HelloController.hello4()
+18:47:47.881 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/thymeleaf]}" onto public org.springframework.web.servlet.ModelAndView com.testPlatform.demo.controller.ThymeleafExerciseController.index()
+18:47:47.883 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/jsp]}" onto public org.springframework.web.servlet.ModelAndView com.testPlatform.demo.controller.jspExerciseController.index()
+18:47:47.884 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/login],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.testPlatform.demo.controller.loginController.login(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+18:47:47.889 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+18:47:47.890 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+18:47:47.904 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/toLogin] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+18:47:47.917 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/testmy/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+18:47:47.917 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+18:47:47.917 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+18:47:47.955 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+18:47:48.613 logback [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+18:47:48.614 logback [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+18:47:48.623 logback [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+18:47:48.642 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+18:47:48.653 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+18:47:48.669 logback [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+18:47:48.694 logback [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+18:47:48.701 logback [main] INFO  c.testPlatform.demo.DemoApplication - Started DemoApplication in 5.407 seconds (JVM running for 6.59)
+18:48:03.306 logback [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+18:48:03.307 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+18:48:03.338 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 31 ms
+18:48:03.489 logback [http-nio-8080-exec-1] INFO  org.thymeleaf.TemplateEngine - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+18:48:03.632 logback [http-nio-8080-exec-1] INFO  o.t.t.AbstractTemplateResolver - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+18:48:03.633 logback [http-nio-8080-exec-1] INFO  o.t.t.AbstractTemplateResolver - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+18:48:03.633 logback [http-nio-8080-exec-1] INFO  o.t.m.AbstractMessageResolver - [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+18:48:03.633 logback [http-nio-8080-exec-1] INFO  o.t.m.AbstractMessageResolver - [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+18:48:03.649 logback [http-nio-8080-exec-1] INFO  org.thymeleaf.TemplateEngine.CONFIG - [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * XHTML
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF]     * HTML5
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF]     * XML
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+18:48:03.650 logback [http-nio-8080-exec-1] INFO  org.thymeleaf.TemplateEngine - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+18:51:18.911 logback [Thread-15] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@45ca843: startup date [Thu Sep 14 18:47:44 CST 2017]; root of context hierarchy
+18:51:18.918 logback [Thread-15] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+18:51:18.918 logback [Thread-15] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+18:51:26.697 logback [main] INFO  c.testPlatform.demo.DemoApplication - Starting DemoApplication on AT4280.corp.autohome.inc with PID 37790 (/Users/guojingjing/Desktop/demo/target/classes started by guojingjing in /Users/guojingjing/Desktop/demo)
+18:51:26.706 logback [main] INFO  c.testPlatform.demo.DemoApplication - The following profiles are active: devdb
+18:51:27.090 logback [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+18:51:27.263 logback [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@45ca843: startup date [Thu Sep 14 18:51:27 CST 2017]; root of context hierarchy
+18:51:29.205 logback [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+18:51:29.219 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+18:51:29.221 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.16
+18:51:29.341 logback [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+18:51:29.341 logback [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2078 ms
+18:51:29.550 logback [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+18:51:29.555 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+18:51:29.556 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+18:51:29.556 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+18:51:29.556 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+18:51:30.252 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@45ca843: startup date [Thu Sep 14 18:51:27 CST 2017]; root of context hierarchy
+18:51:30.328 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/demo]}" onto public java.lang.String com.testPlatform.demo.controller.DemoController.demo()
+18:51:30.331 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/demo/queryDemoList],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public void com.testPlatform.demo.controller.DemoController.queryDemoList(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+18:51:30.333 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String com.testPlatform.demo.controller.HelloController.index()
+18:51:30.333 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/task]}" onto public java.lang.String com.testPlatform.demo.controller.HelloController.task()
+18:51:30.334 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello]}" onto public java.lang.String com.testPlatform.demo.controller.HelloController.hello()
+18:51:30.334 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello2]}" onto public java.lang.String com.testPlatform.demo.controller.HelloController.hello2()
+18:51:30.334 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello3]}" onto public java.lang.String com.testPlatform.demo.controller.HelloController.hello3()
+18:51:30.335 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello4]}" onto public java.lang.String com.testPlatform.demo.controller.HelloController.hello4()
+18:51:30.336 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/thymeleaf]}" onto public org.springframework.web.servlet.ModelAndView com.testPlatform.demo.controller.ThymeleafExerciseController.index()
+18:51:30.336 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/jsp]}" onto public org.springframework.web.servlet.ModelAndView com.testPlatform.demo.controller.jspExerciseController.index()
+18:51:30.337 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/login],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.testPlatform.demo.controller.loginController.login(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+18:51:30.345 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+18:51:30.347 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+18:51:30.362 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/toLogin] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+18:51:30.375 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/testmy/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+18:51:30.376 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+18:51:30.376 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+18:51:30.426 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+18:51:31.127 logback [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+18:51:31.128 logback [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+18:51:31.136 logback [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+18:51:31.154 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+18:51:31.165 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+18:51:31.181 logback [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+18:51:31.202 logback [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+18:51:31.208 logback [main] INFO  c.testPlatform.demo.DemoApplication - Started DemoApplication in 5.666 seconds (JVM running for 7.013)
+18:51:36.447 logback [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+18:51:36.447 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+18:51:36.482 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 35 ms
+18:51:36.558 logback [http-nio-8080-exec-1] INFO  org.thymeleaf.TemplateEngine - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+18:51:36.687 logback [http-nio-8080-exec-1] INFO  o.t.t.AbstractTemplateResolver - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+18:51:36.690 logback [http-nio-8080-exec-1] INFO  o.t.t.AbstractTemplateResolver - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+18:51:36.691 logback [http-nio-8080-exec-1] INFO  o.t.m.AbstractMessageResolver - [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+18:51:36.691 logback [http-nio-8080-exec-1] INFO  o.t.m.AbstractMessageResolver - [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+18:51:36.702 logback [http-nio-8080-exec-1] INFO  org.thymeleaf.TemplateEngine.CONFIG - [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * XHTML
+[THYMELEAF]     * XML
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * HTML5
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+18:51:36.703 logback [http-nio-8080-exec-1] INFO  org.thymeleaf.TemplateEngine - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+18:55:35.306 logback [Thread-16] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@45ca843: startup date [Thu Sep 14 18:51:27 CST 2017]; root of context hierarchy
+18:55:35.316 logback [Thread-16] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+18:55:35.322 logback [Thread-16] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+18:55:51.130 logback [main] INFO  c.testPlatform.demo.DemoApplication - Starting DemoApplication on AT4280.corp.autohome.inc with PID 37813 (/Users/guojingjing/Desktop/demo/target/classes started by guojingjing in /Users/guojingjing/Desktop/demo)
+18:55:51.135 logback [main] INFO  c.testPlatform.demo.DemoApplication - The following profiles are active: devdb
+18:55:51.848 logback [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+18:55:51.952 logback [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@45ca843: startup date [Thu Sep 14 18:55:51 CST 2017]; root of context hierarchy
+18:55:55.745 logback [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+18:55:55.764 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+18:55:55.765 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.16
+18:55:55.940 logback [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+18:55:55.940 logback [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3988 ms
+18:55:56.296 logback [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+18:55:56.301 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+18:55:56.302 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+18:55:56.302 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+18:55:56.303 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+18:55:57.777 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@45ca843: startup date [Thu Sep 14 18:55:51 CST 2017]; root of context hierarchy
+18:55:57.880 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/demo]}" onto public java.lang.String com.testPlatform.demo.controller.DemoController.demo()
+18:55:57.883 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/demo/queryDemoList],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public void com.testPlatform.demo.controller.DemoController.queryDemoList(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+18:55:57.885 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String com.testPlatform.demo.controller.HelloController.index()
+18:55:57.886 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello]}" onto public java.lang.String com.testPlatform.demo.controller.HelloController.hello()
+18:55:57.887 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello2]}" onto public java.lang.String com.testPlatform.demo.controller.HelloController.hello2()
+18:55:57.887 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello3]}" onto public java.lang.String com.testPlatform.demo.controller.HelloController.hello3()
+18:55:57.888 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello4]}" onto public java.lang.String com.testPlatform.demo.controller.HelloController.hello4()
+18:55:57.888 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/task]}" onto public java.lang.String com.testPlatform.demo.controller.HelloController.task()
+18:55:57.889 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/thymeleaf]}" onto public org.springframework.web.servlet.ModelAndView com.testPlatform.demo.controller.ThymeleafExerciseController.index()
+18:55:57.890 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/jsp]}" onto public org.springframework.web.servlet.ModelAndView com.testPlatform.demo.controller.jspExerciseController.index()
+18:55:57.894 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/login],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.testPlatform.demo.controller.loginController.login(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+18:55:57.904 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+18:55:57.905 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+18:55:57.927 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/toLogin] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+18:55:57.952 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/testmy/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+18:55:57.953 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+18:55:57.953 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+18:55:58.121 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+18:55:59.741 logback [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+18:55:59.747 logback [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+18:55:59.756 logback [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+18:55:59.777 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+18:55:59.797 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+18:55:59.816 logback [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+18:55:59.854 logback [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+18:55:59.866 logback [main] INFO  c.testPlatform.demo.DemoApplication - Started DemoApplication in 10.489 seconds (JVM running for 13.662)
+18:56:09.769 logback [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+18:56:09.770 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+18:56:09.820 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 50 ms
+18:56:10.091 logback [http-nio-8080-exec-2] INFO  org.thymeleaf.TemplateEngine - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+18:56:10.196 logback [http-nio-8080-exec-2] INFO  o.t.t.AbstractTemplateResolver - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+18:56:10.196 logback [http-nio-8080-exec-2] INFO  o.t.t.AbstractTemplateResolver - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+18:56:10.197 logback [http-nio-8080-exec-2] INFO  o.t.m.AbstractMessageResolver - [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+18:56:10.197 logback [http-nio-8080-exec-2] INFO  o.t.m.AbstractMessageResolver - [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+18:56:10.200 logback [http-nio-8080-exec-2] INFO  org.thymeleaf.TemplateEngine.CONFIG - [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF]     * XHTML
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF]     * XML
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * HTML5
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+18:56:10.201 logback [http-nio-8080-exec-2] INFO  org.thymeleaf.TemplateEngine - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+19:00:09.608 logback [Thread-27] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@45ca843: startup date [Thu Sep 14 18:55:51 CST 2017]; root of context hierarchy
+19:00:09.615 logback [Thread-27] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+19:00:09.615 logback [Thread-27] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+19:01:58.268 logback [main] INFO  c.testPlatform.demo.DemoApplication - Starting DemoApplication on AT4280.corp.autohome.inc with PID 37838 (/Users/guojingjing/Desktop/demo/target/classes started by guojingjing in /Users/guojingjing/Desktop/demo)
+19:01:58.279 logback [main] INFO  c.testPlatform.demo.DemoApplication - The following profiles are active: devdb
+19:01:59.569 logback [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+19:01:59.927 logback [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@45ca843: startup date [Thu Sep 14 19:01:59 CST 2017]; root of context hierarchy
+19:02:03.434 logback [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+19:02:03.463 logback [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+19:02:03.466 logback [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.16
+19:02:03.705 logback [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+19:02:03.705 logback [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3778 ms
+19:02:04.172 logback [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+19:02:04.178 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+19:02:04.179 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+19:02:04.179 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+19:02:04.179 logback [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+19:02:05.544 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@45ca843: startup date [Thu Sep 14 19:01:59 CST 2017]; root of context hierarchy
+19:02:05.664 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/demo]}" onto public java.lang.String com.testPlatform.demo.controller.DemoController.demo()
+19:02:05.666 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/demo/queryDemoList],methods=[POST],produces=[application/json;charset=UTF-8]}" onto public void com.testPlatform.demo.controller.DemoController.queryDemoList(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+19:02:05.668 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/]}" onto public java.lang.String com.testPlatform.demo.controller.HelloController.index()
+19:02:05.668 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello4]}" onto public java.lang.String com.testPlatform.demo.controller.HelloController.hello4()
+19:02:05.668 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello2]}" onto public java.lang.String com.testPlatform.demo.controller.HelloController.hello2()
+19:02:05.669 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello3]}" onto public java.lang.String com.testPlatform.demo.controller.HelloController.hello3()
+19:02:05.669 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/hello]}" onto public java.lang.String com.testPlatform.demo.controller.HelloController.hello()
+19:02:05.669 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/task]}" onto public java.lang.String com.testPlatform.demo.controller.HelloController.task()
+19:02:05.670 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/thymeleaf]}" onto public org.springframework.web.servlet.ModelAndView com.testPlatform.demo.controller.ThymeleafExerciseController.index()
+19:02:05.672 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/jsp]}" onto public org.springframework.web.servlet.ModelAndView com.testPlatform.demo.controller.jspExerciseController.index()
+19:02:05.673 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/login],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.testPlatform.demo.controller.loginController.login(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+19:02:05.677 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+19:02:05.678 logback [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+19:02:05.711 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/toLogin] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+19:02:05.731 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/testmy/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+19:02:05.731 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+19:02:05.731 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+19:02:05.882 logback [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+19:02:07.226 logback [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+19:02:07.228 logback [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+19:02:07.245 logback [main] INFO  o.s.j.e.a.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+19:02:07.290 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+19:02:07.300 logback [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+19:02:07.324 logback [main] INFO  o.a.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+19:02:07.367 logback [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+19:02:07.375 logback [main] INFO  c.testPlatform.demo.DemoApplication - Started DemoApplication in 11.521 seconds (JVM running for 14.575)
+19:40:40.257 logback [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+19:40:40.258 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+19:40:40.276 logback [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 17 ms

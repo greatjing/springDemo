@@ -3,12 +3,13 @@ package com.testPlatform.demo.domain;/**
  */
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
+import org.springframework.context.annotation.Configuration;
 
 /**
  ** @description $
  ** Created by guojingjing on 6/9/17. 
  **/
-
+@Configuration
 @ConfigurationProperties(prefix = "com.testPlatform")
 public class ConfigBean {
     private String name ;

@@ -23,6 +23,7 @@ public class HelloController {
 
     @Autowired
     ConfigBean configBean;
+
     @Autowired
     CustomConfigBean customConfigBean;
     @Autowired

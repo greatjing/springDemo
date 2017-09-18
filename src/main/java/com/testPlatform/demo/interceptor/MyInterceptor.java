@@ -29,13 +29,14 @@ public class MyInterceptor implements HandlerInterceptor {
 
 
         UserBean userBean = (UserBean)request.getSession().getAttribute("user");
-        if(null == userBean){
-            response.sendRedirect("toLogin");
-            flag = false;
-        }
-        else {
-            flag = true;
-        }
+        flag = true;
+//        if(null == userBean){
+//            response.sendRedirect("toLogin");
+//            flag = false;
+//        }
+//        else {
+//            flag = true;
+//        }
         return flag;
     }
 
