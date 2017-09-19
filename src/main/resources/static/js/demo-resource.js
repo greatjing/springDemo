@@ -89,10 +89,10 @@ $(function(){
 
     //查询点击事件
     $("#queryBtn").click(function(){
-        var qryAuthor=$("#qryAuthor").val();
+        var name=$("#qryAuthor").val();
         var qryTitle=$("#qryTitle").val();
         $(grid_selector).jqGrid('setGridParam',{
-            postData:{author:qryAuthor,title:qryTitle},
+            postData:{name:name,title:qryTitle},
             //search: true,
             page:1
         }).trigger("reloadGrid");

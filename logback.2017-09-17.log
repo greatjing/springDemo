@@ -1,0 +1,4 @@
+16:52:21.222 logback [Thread-14] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@babafc2: startup date [Fri Sep 15 18:06:03 CST 2017]; root of context hierarchy
+16:52:21.293 logback [Thread-14] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+16:52:21.295 logback [Thread-14] INFO  o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans
+16:52:21.304 logback [Thread-14] INFO  c.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

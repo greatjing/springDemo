@@ -3,6 +3,7 @@ package com.testPlatform.demo.service;
 import com.testPlatform.demo.domain.DemoResource;
 import com.testPlatform.demo.tools.Page;
 
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -13,5 +14,6 @@ public interface DemoService {
     int update(DemoResource demoResource);
     int deleteByIds(String ids);
     DemoResource queryDemoResourceById(long id);
-    Page queryDemoResourceList(Map<String, Object> params);
+    //Page queryDemoResourceList(Map<String, Object> params);
+    List<DemoResource> queryDemoResourceList(Map<String, Object> params);
 }

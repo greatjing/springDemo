@@ -4,6 +4,7 @@ package com.testPlatform.demo.controller;/**
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
+import com.github.pagehelper.PageInfo;
 import com.testPlatform.demo.domain.DemoResource;
 import com.testPlatform.demo.service.DemoService;
 import com.testPlatform.demo.tools.Page;
@@ -52,21 +53,34 @@ public class DemoController {
         String name = request.getParameter("name");
         String title = request.getParameter("title");
         //String url = request.getParameter("url");
+        System.out.println("name :" + name);
+        System.out.println("title :" + title);
 
         Map<String, Object> params = new HashMap<String, Object>();
         params.put("page", page);
         params.put("rows", rows);
         params.put("name", name);
         params.put("title", title);
+//        System.out.println("参数==" + params);
 
-        Page pageObj = demoService.queryDemoResourceList(params);
+      //使用jdbcTemplate
+//        Page pageObj = demoService.queryDemoResourceList(params);
+//        List< Map<String , Object> > demoList = pageObj.getResultList();
+//
+//        JSONObject jo = new JSONObject() ;
+//        jo.put("rows", demoList);
+//        jo.put("total", pageObj.getTotalPages());
+//        jo.put("records", pageObj.getTotalRows());
+//        ServletUtil.createSuccessResponse(200, jo, response);
 
-        List< Map<String , Object> > demoList = pageObj.getResultList();
-
-        JSONObject jo = new JSONObject() ;
+        //使用mybatis
+        List<DemoResource> demoList = demoService.queryDemoResourceList(params);
+//        System.out.println("demoList==" + demoList);
+        PageInfo<DemoResource> pageInfo = new PageInfo<>(demoList);
+        JSONObject jo = new JSONObject();
         jo.put("rows", demoList);
-        jo.put("total", pageObj.getTotalPages());
-        jo.put("records", pageObj.getTotalRows());
+        jo.put("tatal", pageInfo.getPages());  //总页数
+        jo.put("records", pageInfo.getTotal()); //总记录数
         ServletUtil.createSuccessResponse(200, jo, response);
     }
 
