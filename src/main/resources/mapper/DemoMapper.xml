@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.testPlatform.demo.dao.DemoMybitsXml">
+    <resultMap id="baseResultMap" type="com.testPlatform.demo.domain.DemoResource">
+        <id column="id" property="id" jdbcType="BIGINT" />
+        <result column="name" property="name" jdbcType="VARCHAR" />
+        <result column="title" property="title" jdbcType="VARCHAR" />
+        <result column="url" property="url" jdbcType="VARCHAR" />
+    </resultMap>
+
+    <sql id="baseColumnList">
+        id, name, title, url
+    </sql>
+
+    <select id="queryDemoList" resultMap="baseResultMap" parameterType="java.util.HashMap">
+      SELECT
+      <include refid="baseColumnList" />
+      FROM demo_resource
+      <where>
+          1 = 1
+          <if test="name != null and name != ''">
+              AND name like concat(concat('%', #{name, jdbcType=VARCHAR}), '%')
+          </if>
+          <if test="title != null and title != ''">
+              AND title like concat(concat('%', #{title, jdbcType=VARCHAR}), '%')
+          </if>
+      </where>
+    </select>
+
+    <select id="queryDemoResourceById" resultMap="baseResultMap" parameterType="java.lang.Long">
+      SELECT
+      <include refid="baseColumnList" />
+        FROM demo_resource
+        where id = #{id}
+    </select>
+
+    <insert id="add" parameterType="com.testPlatform.demo.domain.DemoResource">
+      INSERT  INTO demo_resource (name, title, url) VALUES (#{name}, #{title}, #{url})
+    </insert>
+
+    <update id="updateMybatis" parameterType="com.testPlatform.demo.domain.DemoResource">
+        UPDATE demo_resource SET name = #{name}, title = #{title}, url = #{url} where id = #{id}
+    </update>
+
+    <delete id="deleteByIds" parameterType="java.lang.String">
+        DELETE FROM demo_resource WHERE id IN
+        <foreach item="idItem" collection="array" open="(" separator ="," close=")">
+          #{idItem}
+        </foreach>
+    </delete>
+
+</mapper>

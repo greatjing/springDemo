@@ -13,8 +13,8 @@ public class DemoResource {
     private String url;
 
     public long getId(){
-        System.out.println("111111111111");
-        System.out.println(id);
+//        System.out.println("111111111111");
+//        System.out.println(id);
         return id;
     }
 

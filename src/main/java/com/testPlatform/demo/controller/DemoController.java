@@ -205,7 +205,8 @@ public class DemoController {
 
         JSONObject result = new JSONObject();
 
-        int index = demoService.deleteByIds(ids);
+//        int index = demoService.deleteByIds(ids);
+        int index = demoService.deleteByIds(ids.split(","));
 
         if (index > 0){
             result.put("message", "删除成功");

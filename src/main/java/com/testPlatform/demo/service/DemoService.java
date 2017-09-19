@@ -12,7 +12,7 @@ import java.util.Map;
 public interface DemoService {
     int add(DemoResource demoResource);
     int update(DemoResource demoResource);
-    int deleteByIds(String ids);
+    int deleteByIds(String[] ids);
     DemoResource queryDemoResourceById(long id);
     //Page queryDemoResourceList(Map<String, Object> params);
     List<DemoResource> queryDemoResourceList(Map<String, Object> params);
